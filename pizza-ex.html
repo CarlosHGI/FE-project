@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+
+    <title>Bender's Pizzeria</title>
+     
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+            <!---Got the image of pinterest, which lead to the url; picture is from the show Futurama-->
+            <img src="https://pm1.narvii.com/6847/9a804bc6efbc397fc4c18b4a149079a42b89c419_00.jpg" alt="Pannuci's Pizza">
+            <!---Ordered list of navigation list-->
+            <h1>Bender's Pizzeria</h1>
+        <!---list originally from bootstrap, but I wanted a horizontal bar-->
+                <ul1>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#randomPizzas">Pizzas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#ingredients">Ingredients</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#locations">Locations</a>
+                      </li>
+                      <li class="nav-item">
+                        <form>
+                          <input type="button" value="Contact Us"onclick="display()"/>
+                        </form>
+                        <script src="new.js">
+                        </script>
+                      </li>
+                    </ul1>
+    <div id="callToAction" class="row">
+      <div class="col-md-4">
+    <!---image from google images, then from url-->
+        <img src="https://my.datasphere.com/files/mydatasphere/styles/ls750/public/image-library/418/1492806125_iStock-140450921.jpg" class="img-responsive">
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>We Have Hundreds of Pizza Recipes!</h2>            
+            <p>At Bender's Pizzeria we have two specials going on, but feel free to call for anotehr classic pizza style </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-push-3">
+            <form action="#randomPizzas">
+              <input type="submit" value="Pick a Pizza Now!">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="ingredients" class="row">
+      <div class="col-md-8 col-md-push-2">
+        <div class="row">
+          <header class="col-md-12 centered">
+            <h2>Ingredients!</h2>
+          </header>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>We've searched around the corner of the milky way for the best ingredients and serve it with a cold beer.</p>
+
+            <p>We have classic meats like pepperoni, sausage, and barbecue chicken. But you can find even more fun meats like coppa, kielbasa and soylent green on our menu too.</p>
+
+            <p>Not interested in meat? just order some of the alternatives like mushrooms, banana peppers, and roasted bell peppers!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="locations" class="row">
+      <div class="col-md-12">
+        <h2>Locations!</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Planet Express</h3>
+            <p>26 General Ave.<br>Great Neck, NY<br>555-555-5555</p>
+          </div>
+          <div class="col-md-6">
+            <h3>PI-shop</h3>
+            <p>3.14 Classic Pi Circle Drive<br>New New York, NY<br>555-555-5555</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pizzaGenerator" class="row">
+      <div class="col-md-12">
+        <h2>Our Pizzas!</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <em>What size pizza would you like? Use the slider below to change pizza sizes.</em>
+          </div>
+            <p> We serve large at 16 inches, Medium by 12 inches, and Small by 8 inches </p>
+          <div class="col-md-12">
+          </div>
+        </div>
+        <div id="randomPizzas" class="row">
+          <div id="pizza0" class="randomPizzaContainer">
+            <div class="col-md-6">
+            <!---image from goolge images, then from url, also the list and image correspond to meat lovers-->
+              <img src="https://www.bakedbyrachel.com/wp-content/uploads/2014/08/meatloverspizza1_bakedbyrachel.jpg" style="width:250px;height:250px";>
+            </div>
+        <div class="container">
+            <div class="col-md-6 col">
+              <h4>Meat Lovers</h4>
+              <ul>
+                <li>Turkey</li>
+                <li>Bacon</li>
+                <li>Sausage</li>
+                <li>Pepperoni</li>
+                <li>Whole Wheat Crust</li>
+              </ul>
+            </div>
+          <div id="pizza1" class="randomPizzaContainer">
+            <div class="col-md-6">
+            <!--image from google images then from martha stewart website; alos the image and the list below refer to Fry's-->
+              <img src="https://assets.marthastewart.com/styles/wmax-520-highdpi/d27/anchovy-pizza-0911mbd107580/anchovy-pizza-0911mbd107580_sq.jpg?itok=VwB7c6S9" style="width:250px;height:250px";>
+            </div>
+            <div class="col-md-6">
+              <h4>Fry's</h4>
+              <ul>
+                <li>Anchovies</li>
+                <li>Cheese</li>
+                <li>Stuffed Crust</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>Planet Express INC @PlanetExpress</footer>
+    </div>
+    </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

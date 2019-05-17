@@ -1,0 +1,1 @@
+This is a current pizza shop website for a Futurama inspired menu. This is not meant to be used as a functional website. The website is not finished and will be awaiting for updates in the future.
